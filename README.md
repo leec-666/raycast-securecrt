@@ -1,6 +1,6 @@
 # SecureCRT
 
-Search and open SecureCRT sessions from Raycast.
+Open saved SecureCRT sessions from Raycast.
 
 ## Commands
 

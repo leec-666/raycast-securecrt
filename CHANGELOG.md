@@ -1,3 +1,5 @@
 # SecureCRT Changelog
 
-## [Initial Version] - 21/04/2026
+## [Initial Version] - {PR_MERGE_DATE}
+
+First release

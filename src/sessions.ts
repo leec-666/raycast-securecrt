@@ -1,4 +1,5 @@
 import { execFile } from "node:child_process";
+import type { Dirent } from "node:fs";
 import fs from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
@@ -85,7 +86,7 @@ function findIniValue(content: string, keys: string[]): string | undefined {
     return undefined;
 }
 
-function isSessionFile(entry: fs.Dirent): boolean {
+function isSessionFile(entry: Dirent): boolean {
     if (!entry.isFile()) return false;
     if (!entry.name.toLowerCase().endsWith(".ini")) return false;
 
